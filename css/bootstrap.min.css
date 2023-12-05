@@ -1199,6 +1199,7 @@ progress {
     .col-md-4 {
         flex: 0 0 auto;
         width: 33.33333%
+        
     }
 
     .col-md-5 {
@@ -6715,7 +6716,7 @@ fieldset:disabled .btn {
     bottom: 1.25rem;
     left: 15%;
     padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
+    padding-bottom: 7.25rem;
     color: #fff;
     text-align: center
 }
@@ -8346,6 +8347,12 @@ fieldset:disabled .btn {
 .bg-secondary {
     background-color: #F57E57 !important
 }
+.border-6{
+    border-radius: 10px;
+}
+.bg-cards{
+    background-color: rgba(6, 163, 218, .85) !important;
+}
 
 .bg-success {
     background-color: #198754 !important
@@ -8446,8 +8453,8 @@ fieldset:disabled .btn {
 }
 
 .rounded-bottom {
-    border-bottom-right-radius: 2px !important;
-    border-bottom-left-radius: 2px !important
+    border-bottom-right-radius: 10px !important;
+    border-bottom-left-radius: 10px !important
 }
 
 .rounded-start {
